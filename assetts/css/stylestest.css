@@ -16,10 +16,12 @@
     background-color: #9b59b6;
 }
 
+.bg-color-contact{
+    background-color: #ffffff;
+}
 .container-fluid {
     background-color: #676767;
 }
-
 
 .ul-menu-color-home {
     background-color: #e67e72;
@@ -58,31 +60,32 @@ p {
     font-family: "Exo", sans-serif;
     font-weight: 300;
     color: #fafafa;
-
 }
 
 .inline-block {
     display: inline-block;
 }
 
-
 .row-table {
     display: table;
-
+    height: 38em;
 }
+
+.bottomdrop{
+    margin-bottom: 30px;
+}
+
 .history-heading,
 .section-heading {
     font-family: "Exo", sans-serif;
     font-weight: 300;
     margin-top: 25px;
     margin-bottom: 40px;
-    color: #fafafa;
 }
 
 header {
     margin: 0;
 }
-
 
 .heading {
     margin-left: 50px;
@@ -105,7 +108,6 @@ header {
     font-size: 46px;
     margin-top: 50px;
     color: #ffffff;
-
 }
 
 .title {
@@ -156,20 +158,16 @@ header {
     letter-spacing: 2px;
 }
 
-
 .hvr-sweep-to-bottom:before {
     background: rgba(0, 0, 0, 0.2);
     height: 120px;
 }
-
 
 footer {
     background-color: #525252;
     color: #fafafa;
     min-height: 120px;
     margin: 0;
-
-
 }
 
 footer .cvpdf i {
@@ -177,9 +175,7 @@ footer .cvpdf i {
     text-align: center;
     font-size: 18px;
     padding-left: 5px;
-
 }
-
 
 footer .cvpdf i:hover {
     color: #e84610;
@@ -215,12 +211,9 @@ footer .cvpdf i:hover {
 
 #footer-details {
     margin: 20px;
-
 }
 
-
 /*---Three Reasons section----*/
-
 .three-reasons-icon {
     font-size: 26px;
     color: #e67e22;
@@ -228,25 +221,19 @@ footer .cvpdf i:hover {
 
 .three-reasons-heading {
     margin-bottom: 15px;
-
 }
-
 /*------Personal Info-------*/
 
 .personal-info-item {
     margin-bottom: 20px;
     display: block;
     clear: both;
-
-
 }
 
 .personal-info-item .key,
 .personal-info-item .value {
     padding-right: 8px;
 }
-
-
 
 .personal-info-item .key p,
 .personal-info-item .value p {
@@ -263,20 +250,17 @@ footer .cvpdf i:hover {
 
 .personal-info-item .key p {
     font-weight: 700;
-
 }
 
 .personal-info-item .value {
     display: inline-block;
     position: relative;
     width: 60%;
-
 }
 
 .progress {
     position: relative;
     height: 25px;
-
 }
 
 .progress-type {
@@ -291,12 +275,10 @@ footer .cvpdf i:hover {
 .progress-section {
     margin: 40px 20px;
 }
-
 /*------Personal Info-------*/
 
 
 /*------Work History-------*/
-
 .timeline-item{
     padding: 4em 2em 0em 2em;
     position: relative;
@@ -304,11 +286,9 @@ footer .cvpdf i:hover {
     border-left: 1px solid;
 }
 
-
 .timeline-item p{
     padding: 0;
     margin: 0;
-    
 }
 
 .timeline-item::before{
@@ -338,6 +318,12 @@ footer .cvpdf i:hover {
 
 
 /*------Work History-------*/
+.section-heading{
+    color: #676767;
+    margin: 50px
+}
+
+
 
 .history-heading {
     color: #fafafa;
@@ -349,21 +335,48 @@ footer .cvpdf i:hover {
     margin-bottom: 30px;
 }
 
+/*------Contact-------*/
+.contact-heading{
+    font-family: "Exo", sans-serif;
+    font-weight: 300;
+    margin-top: 25px;
+    margin-bottom: 20px;
+    
+}
 
+.center-form{
+    padding-top: 10px;
+    margin: 0 auto;
+    max-width: 70%;
+}
 
-
+button[type="submit"]{
+    margin-top: 10px;
+    margin-bottom: 20px;
+    background-color: #c84610;
+    color: #fafafa;
+}
+/*------Contact-------*/
 
 /*------Media Queries-------*/
-
 @media(min-width: 992px) {
     .section-column {
         padding: 0px 30px 30px;
-        padding-bottom: 16.5em;
         float: none;
         display: table-cell;
+}
+    
+    .center-form{
+    padding-top: 30px;
+    min-height: 240px;
+    margin: 0 auto;
+    max-width: 50%;
+}
+    
+    .three-reasons-heading {
+    margin-bottom: 30px;
     }
 }
-
 /*------Media Queries-------*/
 
 
