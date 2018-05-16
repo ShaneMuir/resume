@@ -366,6 +366,29 @@ button[type="submit"]{
         float: none;
         display: table-cell;
 }
+}
+
+@media(max-width: 990px) {
+    .heading {
+        text-align: center;
+        margin: 0;
+        padding: 0;
+    }
+}
+
+@media(max-width: 990px) {
+    .name,
+    .title {
+        padding: 0;
+        margin: 10px;
+    }
+}
+
+@media(max-width: 990px){
+    .bg-color-name-title {
+        margin: 15px;
+    }
+}
     
     .center-form{
     padding-top: 30px;
@@ -377,5 +400,5 @@ button[type="submit"]{
     .three-reasons-heading {
     margin-bottom: 30px;
     }
-}
+
 /*------Media Queries-------*/

@@ -36,12 +36,12 @@ EOT;
         if (!$mail->send()) {
             //The reason for failing to send will be in $mail->ErrorInfo
             //but you shouldn't display errors to users - process the error, log it on your server.
-            $msg = 'Sorry, something went wrong. Please try again later.';
+          $msg = '<label class="text-danger">Sorry, something went wrong. Please try again later.</label>';
         } else {
-            $msg = 'Message sent! Thanks for contacting Me.';
+            $msg = '<label class="text-success">Message sent! Thanks for contacting Me.</label>';
         }
     } else {
-        $msg = 'Invalid email address, message ignored.';
+        $msg = '<label class="text-danger">Invalid email address, message ignored.</label>';
     }
 }
 ?>
@@ -104,7 +104,7 @@ EOT;
 
             <div class="center-form">
                      <?php if (!empty($msg)) {
-    echo "<h2>$msg</h2>";
+    echo "<h4><center>$msg</center></h4>";
 } ?>
                 <form method="POST">
                     <input type="text" name="name" class="form-control" id="fullname" placeholder="Name" required/>
