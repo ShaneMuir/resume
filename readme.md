@@ -13,7 +13,12 @@
                 Bootstrap
                 CV attached in PDF format
                 Two styles attached for different color schemes
-                PHPMailer class imported by Composer for use of PHPMailer for contact form. 
+                PHPMailer class imported by Composer for use of PHPMailer for contact form.
+                
+                ## Interactive Frontend UPDATE
+                ''
+                Updating site in readiness for new mini project to add in UI.
+                ''
             
                 ENJOY and THANK YOU.
                 
