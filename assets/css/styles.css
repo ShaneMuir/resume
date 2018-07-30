@@ -20,24 +20,42 @@
     background-color: #ffffff;
     height: 33em;
 }
+
+.bg-color-conferences {
+    background-color: #f4f4f4;
+}
+
+.bg-color-groups {
+    background-color: #ffffff;
+}
+
 .container-fluid {
     background-color: #676767;
 }
 
-.ul-menu-color-home {
-    background-color: #e67e72;
+.ui-menu-color-home {
+    background-color: #e67e22;
 }
 
-.ul-menu-color-resume {
+.ui-menu-color-resume {
     background-color: #9b59b6;
 }
 
-.ul-menu-color-contact {
+.ui-menu-color-contact {
     background-color: #3498db;
 }
 
-.ul-menu-color-download {
-    background-color: #525252;
+.ui-menu-color-download {
+    background-color: #d9a81d;
+}
+
+
+.ui-menu-color-github {
+    background-color: #1c4a6c;
+}
+
+.ui-menu-color-interests {
+    background-color: #e74c3c;
 }
 
 h1,

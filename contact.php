@@ -55,7 +55,7 @@ EOT;
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" type="text/css" />
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.0/css/hover-min.css" type="text/css" />
-    <link rel="stylesheet" href="assetts/css/stylesold.css" type="text/css" />
+    <link rel="stylesheet" href="assets/css/styles.css" type="text/css" />
     <title>Shane Muirhead CV Page</title>
 </head>
 
@@ -85,7 +85,7 @@ EOT;
                             <a href="contact.php" class="hvr-sweep-to-bottom"><i class="fa fa-commenting-o" arla-hidden="true"></i><span>Contact</span></a>
                         </li>
                         <li class="col-xs-6 col-sm-3 ul-menu-color-download menuitem">
-                            <a href="assetts/cv/Muirhead-Shane.pdf" target="_blank" class="hvr-sweep-to-bottom"><i class="fa fa-download" arla-hidden="true"></i><span>Download CV</span></a>
+                            <a href="assets/cv/Muirhead-Shane.pdf" target="_blank" class="hvr-sweep-to-bottom"><i class="fa fa-download" arla-hidden="true"></i><span>Download CV</span></a>
                         </li>
                     </ul>
                 </div>
@@ -131,15 +131,16 @@ EOT;
                 <h5 class="uppercase general-sub">Download My CV</h5>
                 <p class="inline-block">
                     Need a printable version of my CV? Download it here.
-                    <a href="assetts/cv/Muirhead-Shane.pdf" target="_blank" class="cvpdf"> <i class="fa fa-download" arla-hidden="true"></i></a>
+                    <a href="assets/cv/Muirhead-Shane.pdf" target="_blank" class="cvpdf"> <i class="fa fa-download" arla-hidden="true"></i></a>
                 </p>
             </div>
             <div class="col-sm-4">
                 <h5 class="uppercase general-sub">My Social</h5>
-                <ul class="list-inline social-links">
+                  <ul class="list-inline social-links">
                     <li><a target="_blank" href="https://www.facebook.com/Shane.Muirhead1"><i class="fa fa-facebook"></i></a></li>
                     <li><a target="_blank" href="https://twitter.com/IBoxuh"><i class="fa fa-twitter"></i></a></li>
                     <li><a target="_blank" href="https://www.linkedin.com/in/shane-muirhead/"><i class="fa fa-linkedin"></i></a></li>
+                    <li><a target="_blank" href="https://github.com/ShaneMuir"><i class="fa fa-github"></i></a></li>
                 </ul>
             </div>
         </div>
