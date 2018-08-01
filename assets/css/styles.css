@@ -375,6 +375,15 @@ button[type="submit"]{
     background-color: #c84610;
     color: #fafafa;
 }
+
+div #map {
+    min-height: 360px;
+    
+}
+
+
+
+
 /*------Contact-------*/
 
 /*------Media Queries-------*/
