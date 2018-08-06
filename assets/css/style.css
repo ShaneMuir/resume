@@ -391,6 +391,7 @@ div#map {
     min-height: 360px;
 }
 
+
 /*--------------------------------------------Media Queries*/
 
 @media(min-width: 992px) {
