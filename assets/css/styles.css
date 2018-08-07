@@ -18,8 +18,12 @@
 
 .bg-color-contact{
     background-color: #ffffff;
-    height: 33em;
 }
+
+.bg-color-github{
+    background-color: #ffffff;
+}
+
 
 .bg-color-conferences {
     background-color: #f4f4f4;
@@ -29,9 +33,6 @@
     background-color: #ffffff;
 }
 
-.container-fluid {
-    background-color: #676767;
-}
 
 .ui-menu-color-home {
     background-color: #e67e22;
