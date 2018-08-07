@@ -10,6 +10,17 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.1.1/css/hover-min.css" type="text/css" />
     <link rel="stylesheet" href="assets/css/styles.css" type="text/css" />
+
+    <script src='https://www.google.com/recaptcha/api.js'></script>
+
+
+    <!-- Email JS -->
+    <script type="text/javascript" src="https://cdn.emailjs.com/sdk/2.2.4/email.min.js"></script>
+    <script type="text/javascript">
+        (function() {
+            emailjs.init("user_zQz9SfvXDMDIZt7qJmx5x");
+        })();
+    </script>
 </head>
 
 <body>
@@ -50,9 +61,9 @@
             </div>
         </div>
     </header>
-    
-    
-    
+
+
+
     <section class="container-fluid">
         <div class="row bg-color-contact">
             <div>
@@ -60,19 +71,19 @@
                 <h5 class="uppercase text-center">Let's work together</h5>
             </div>
             <div class="center-form">
-                <form>
-                <input type="text" name="name" class="form-control" id="fullname" placeholder="Name" required/>
-                <input type="text" name="emailaddress" class="form-control" id="emailaddress" placeholder="Email" required/>
-                <textarea rows="5" name="projectsummary" class="form-control" id="projectsummary" placeholder="Project Description" required></textarea>
-                <button type="submit" class="btn btn-secondary center-block">Send Project Request</button>
+             <form id="myForm" onsubmit="return sendMail(this);" method="POST">
+                    <input type="text" name="name" class="form-control" id="fullname" placeholder="Name" required/>
+                    <input type="text" name="emailaddress" class="form-control" id="emailaddress" placeholder="Email" required/>
+                    <textarea rows="5" name="projectsummary" class="form-control" id="projectsummary" placeholder="Project Description" required></textarea>
+                    <button type="submit" class="btn btn-secondary center-block">Send Project Request</button>
                 </form>
             </div>
         </div>
     </section>
-    
-    
-    
-    
+
+
+
+
     <footer class="container-fluid">
         <div id="footer-details" class="row">
             <div class="col-sm-4">
@@ -82,7 +93,7 @@
                 </p>
             </div>
             <div class="col-sm-4">
-                            <h5 class="uppercase general-sub">Download My CV</h5>
+                <h5 class="uppercase general-sub">Download My CV</h5>
                 <p class="inline-block">
                     Need a printable version of my CV? Download it here.
                     <a href="assets/cv/Muirhead-Shane.pdf" target="_blank" class="cvpdf"> <i class="fa fa-download" arla-hidden="true"></i></a>
@@ -99,9 +110,9 @@
             </div>
         </div>
     </footer>
-    
-    
-    
+
+    <script src="assets/js/sendEmail.js"></script>
+
 </body>
 
 </html>

@@ -412,11 +412,7 @@ div #map {
     }
 }
 
-@media(max-width: 990px){
-    .bg-color-name-title {
-        margin: 15px;
-    }
-}
+
     
     .center-form{
     padding-top: 30px;
