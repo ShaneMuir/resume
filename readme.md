@@ -13,31 +13,20 @@ Or view live version on GitHub Pages
 
 ```
 
-##
+### Code tested on...
 
-## 
-
-
-
-### 
-
-
+The tests are carried on the following devices to see how well my pages render on all devices.
 
 ```
-Give an example
-```
-
-### And coding style tests
-
-Explain what these tests test and why
-
-```
-Give an example
+Smart Phones
+Tablets
+Laptops 
+Desktop Large screens
 ```
 
 ## Deployment
 
-Add additional notes about how to deploy this on a live system
+Deployed on GitHub Pages. Static site.
 
 ## Built With
 
